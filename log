@@ -1,0 +1,56 @@
+commit 8d882128b5b29216219c2ae2b930c7d4013adb94
+Author: Lucas Wu <lucaswu@wharton.upenn.edu>
+Date:   Mon Apr 3 21:28:23 2023 -0400
+
+    menu folder
+
+diff --git a/menu.txt b/menus/menu.txt
+similarity index 75%
+rename from menu.txt
+rename to menus/menu.txt
+index ffcc670..bee9b46 100644
+--- a/menu.txt
++++ b/menus/menu.txt
+@@ -6,3 +6,7 @@ Mashed Potatoes
+ Yams
+ Cranberry Sauce
+ Pumpkin Pie
++Soup
++Gravy
++Ice Cream
++Ribs
+
+commit 1a9dc8e632229b41bd854f7b902b5644741ea4bc
+Author: Lucas Wu <lucaswu@wharton.upenn.edu>
+Date:   Mon Apr 3 19:42:00 2023 -0400
+
+    Added menu.txt
+
+diff --git a/menu.txt b/menu.txt
+new file mode 100644
+index 0000000..ffcc670
+--- /dev/null
++++ b/menu.txt
+@@ -0,0 +1,8 @@
++Menu:
++----------
++Turkey
++Stuffing
++Mashed Potatoes
++Yams
++Cranberry Sauce
++Pumpkin Pie
+
+commit e8e976fd2aa198d83150ad8b98247453706c7b6b
+Author: Lucas Wu <lucaswu@wharton.upenn.edu>
+Date:   Mon Apr 3 19:41:00 2023 -0400
+
+    add README
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..4dfa694
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++Hi! This is a basic repository created by Lucas in the command line!
